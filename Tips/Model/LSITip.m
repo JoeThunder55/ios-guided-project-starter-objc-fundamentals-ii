@@ -9,5 +9,18 @@
 #import "LSITip.h"
 
 @implementation LSITip
-
+- (instancetype)initWithName:(NSString *)aName
+                       total:(double)aTotal
+                  splitCount:(NSInteger)aSplitCount
+               tipPercentage:(double)aTipPercentage
+{
+    if (self = [super init]) {
+        // Only use the Underscore if you're overriding or initializing the code.
+        _name = aName;
+        _total = aTotal;
+        _splitCount = aSplitCount;
+        _tipPercentage = aTipPercentage;
+    }
+    return self
+}
 @end
