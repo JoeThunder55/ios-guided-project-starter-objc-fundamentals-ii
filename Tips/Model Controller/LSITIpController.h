@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class LSITip;
 
-@interface LSITIpController : NSObject
+@interface LSITipController : NSObject
 
 @property (nonatomic, readonly, copy) NSArray<LSITip *> *tips;
 
