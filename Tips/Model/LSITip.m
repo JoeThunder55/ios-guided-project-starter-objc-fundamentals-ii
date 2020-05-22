@@ -21,6 +21,6 @@
         _splitCount = aSplitCount;
         _tipPercentage = aTipPercentage;
     }
-    return self
+    return self;
 }
 @end
